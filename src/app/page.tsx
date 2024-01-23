@@ -1,9 +1,14 @@
-'use client'
+"use client"
 
-export default function Page() {
-  return (
-    <main>
-      hallo
-    </main>
-  )
-}
+const { useRouter } = require("next/navigation")
+const { useEffect } = require("react")
+
+const Page = () => {
+    const router = useRouter()
+    useEffect(() => {
+        router.push('/absensi');
+    }, [router]);
+    return null;
+};
+
+export default Page;

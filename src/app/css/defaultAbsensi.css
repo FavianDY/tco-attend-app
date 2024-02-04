@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+body.chakra-ui-light {
+  min-width: 375px;
+  background-color: #f4c2c2;
+}
+body {
+  min-width: 375px;
+  background-color: #f4c2c2;
+}

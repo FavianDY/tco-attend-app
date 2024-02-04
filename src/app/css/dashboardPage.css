@@ -1,0 +1,33 @@
+div.dashboard-head {
+  display: flex;
+  flex-direction: column;
+}
+div.container-main {
+  margin: 15px 0;
+  border: 2px solid #cbd5e0;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+}
+div.chart {
+  padding: 1cm 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+div.bar-chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+div.pie-chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+div.bar-chart-container canvas {
+  width: 100%;
+}

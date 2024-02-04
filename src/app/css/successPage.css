@@ -1,0 +1,70 @@
+main {
+  width: 100%;
+  padding: 20px 0;
+  padding-bottom: 100px;
+  background-color: #f4c2c2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chakra-form-control {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 30px 30px 50px 30px;
+}
+.box {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.list-box-color {
+  background-color: var(--chakra-colors-red-500);
+  width: 100%;
+  height: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.capt-title-1,
+.capt-title-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.box-content-1,
+.box-content-2 {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px;
+}
+.chakra-stack {
+  padding: 0 20px;
+}
+.chakra-form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.chakra-form-control,
+.box {
+  border-radius: 10px;
+  box-shadow: 0 4px 15px -5px rgba(58, 53, 65, 0.267);
+}
+.title-page {
+  padding-bottom: 20px;
+}
+.title-absensi {
+  font-size: 50px;
+  font-weight: 600;
+}
+.inner-padding {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.btn-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

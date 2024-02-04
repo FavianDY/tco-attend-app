@@ -1,11 +1,12 @@
 // app/fonts.ts
-import { Rubik } from 'next/font/google'
+import { Poppins } from "next/font/google";
 
-const rubik = Rubik({
-  subsets: ['latin'],
-  variable: '--font-rubik',
-})
+const poppins = Poppins({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-poppins",
+});
 
 export const fonts = {
-  rubik,
-}
+  poppins,
+};

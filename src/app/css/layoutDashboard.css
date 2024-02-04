@@ -1,0 +1,12 @@
+body {
+  height: 100vh;
+}
+div.layout {
+  height: 100%;
+}
+/* button.chakra-button.icon-button svg.chakra-icon path {
+  background-color: white !important;
+} */
+/* button.icon-button {
+  bottom: 50px;
+} */

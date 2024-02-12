@@ -80,6 +80,24 @@ export default function AdminDashboardPage() {
                   </Text>
                 </div>
               </div>
+              <div className="sum-field-container">
+                <div className="sum-field">
+                  <Text
+                    alignItems={"center"}
+                    display={"flex"}
+                    justifyContent={"center"}
+                    fontStyle={"italic"}
+                    color={"gray.500"}
+                  >
+                    Pesan Tidak Tersedia
+                  </Text>
+                </div>
+              </div>
+              <div className="download-btn">
+                <Button colorScheme="teal" variant="solid">
+                  Download as XLS
+                </Button>
+              </div>
             </div>
           </div>
         </div>

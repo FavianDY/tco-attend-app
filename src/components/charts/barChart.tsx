@@ -54,5 +54,12 @@ export const data = {
 };
 
 export function ChartBarKaryawan() {
-  return <Stack className="bar-chart" as={Bar} options={options} data={data} />;
+  return (
+    <Stack
+      className="bar-chart"
+      as={Bar}
+      options={{ maintainAspectRatio: false }}
+      data={data}
+    />
+  );
 }

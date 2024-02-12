@@ -78,6 +78,11 @@ export default function AdminDashboardPage() {
                   </Text>
                 </div>
               </div>
+              <div className="download-btn">
+                <Button colorScheme="teal" variant="solid">
+                  Download as XLS
+                </Button>
+              </div>
             </div>
           </div>
         </div>

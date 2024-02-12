@@ -33,5 +33,12 @@ export const data = {
 };
 
 export function ChartPieKaryawan() {
-  return <Stack className="pie-chart" as={Pie} data={data} />;
+  return (
+    <Stack
+      className="pie-chart"
+      as={Pie}
+      options={{ maintainAspectRatio: false }}
+      data={data}
+    />
+  );
 }

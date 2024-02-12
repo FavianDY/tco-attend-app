@@ -32,7 +32,7 @@ export default function AdminDashboardPage() {
       }
     }
   }, [router, session, session?.user.role, status]);
-  const setTanggal = "17 Juli 2024";
+  const setTanggal = "10 Januari 2024";
   const jmlAbsensi = 50;
   return (
     <main>
